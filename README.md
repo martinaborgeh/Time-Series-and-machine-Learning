@@ -62,12 +62,12 @@ The project relies on the following dependencies:
 ## Usage for Each File
 1. Project_Functions_Definitions.ipynb contains all the dependencies and Functions needed for actual analysis by the other files
 2. Time Series Forecasting with Autoregressive.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on past lagged values 
-3. Moving Average.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on window averages taking into considerations past forecas errors
+3. Moving Average.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on window averages taking into considerations past forecast errors
 4. Autoregressive Integrated Moving Average.ipynb extends the Project_Functions_Definitions.ipynb and combines both moving average and Autoregressive models
-5. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least,Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
+5. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
 6. Time_Series_Annual_Seasonality.ipynb extends the Project_Functions_Definitions.ipynb and involves time series analysis and data analytics Techniques
 7. Model Accurace Accessment.ipynb extends the Project_Functions_Definitions.ipynb and it contains the stacked ensemble and time series model accuracy assessment and comparisoms.
-8. Final Powerpoint_Revised_Re-updated Defense_Ready is the Summarised PowerPoint Presentation of the whole Project
+8. Final Powerpoint_Revised_Re-updated Defense_Ready.ptx is the Summarised PowerPoint Presentation of the whole Project
 
 
 
