@@ -3,7 +3,7 @@
 
 ## Project Description
 
-This is my Final Year project as Bachelor of Science Degree holder in Geomatic Engineering Titled: Assessing the Spatiotemporal Variability of Precipitable Water vapour in Africa using machine learning. This project assess how climatic conditions vary both time and in space using data analytics. The main Language used in this project is Python data science FrameWorks listed in the dependencies below
+This is my Final Year project as Bachelor of Science Degree holder in Geomatic Engineering Titled: Assessing the Spatiotemporal Variability of Precipitable Water vapour in Africa using machine learning. This project assess how climatic conditions vary both time and in space using data analytics. The main Frameworks or packages used in this project is Python data science FrameWorks listed in the dependencies below
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Follow these steps to set up and run the project:
 
 1. Clone this repository:
 
-      git clone https://github.com/martinaborgeh/Least-Square-Adjustment.git
+      git clone https://github.com/martinaborgeh/Time-Series-and-machine-Learning.git
 
 
 
@@ -38,26 +38,36 @@ The dependencies are found below. Run 'pip install package_name1,package_name1 e
 The project relies on the following dependencies:
 
 -pandas
+
 -matplotlib.pyplot
+
 -numpy
+
 -sklearn
+
 -statsmodels
+
 -scipy
+
 -xgboost
+
+
 -mlxtend
+
 -pymannkendall
+
 -seaborn
 
 
 ## Usage for Each File
 1. Project_Functions_Definitions.ipynb contains all the dependencies and Functions needed for actual analysis by the other files
-2.Time Series Forecasting with Autoregressive.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on past lagged values 
+2. Time Series Forecasting with Autoregressive.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on past lagged values 
 3. Moving Average.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on window averages taking into considerations past forecas errors
-5. Autoregressive Integrated Moving Average.ipynb extends the Project_Functions_Definitions.ipynb and combines both moving average and Autoregressive models
-6. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least,Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
-7. Time_Series_Annual_Seasonality.ipynb extends the Project_Functions_Definitions.ipynb and involves time series analysis and data analytics Techniques
-8. Model Accurace Accessment.ipynb extends the Project_Functions_Definitions.ipynb and it contains the stacked ensemble and time series model accuracy assessment and comparisoms.
-9. Final Powerpoint_Revised_Re-updated Defense_Ready is the Summarised PowerPoint Presentation of the whole Project
+4. Autoregressive Integrated Moving Average.ipynb extends the Project_Functions_Definitions.ipynb and combines both moving average and Autoregressive models
+5. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least,Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
+6. Time_Series_Annual_Seasonality.ipynb extends the Project_Functions_Definitions.ipynb and involves time series analysis and data analytics Techniques
+7. Model Accurace Accessment.ipynb extends the Project_Functions_Definitions.ipynb and it contains the stacked ensemble and time series model accuracy assessment and comparisoms.
+8. Final Powerpoint_Revised_Re-updated Defense_Ready is the Summarised PowerPoint Presentation of the whole Project
 
 
 
