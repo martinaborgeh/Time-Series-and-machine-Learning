@@ -49,15 +49,14 @@ The project relies on the following dependencies:
 -seaborn
 
 
-## Usage
-### For Local Geoid
-1. Specify the train data in the obj.readdata() method and test input data in the read_data() method assigned to the new_data varible in geoid_model() method. the train and test sampple is found in the cloned directory 
-2. Running Local_Geoid will generate the local geoid model for converting ellipsoidal height to corresponding orthometric heights
-### For Levelling Least Square Adjustment Geoid
-1. Run the MainUiConnect.py file to run the application
-2. Enter or import data from excel
-3. select appropriate output requirement and compute
-4. Export the Error Assessment and the Most probable Height to Excel.
+## Usage for Each File
+1. Project_Functions_Definitions.ipynb contains all the dependencies and Functions needed for actual analysis by the other files
+2.Time Series Forecasting with Autoregressive.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on past lagged values 
+3. Moving Average.ipynb extends the Project_Functions_Definitions.ipynb. It forecast time series data based on window averages taking into considerations past forecas errors
+5. Autoregressive Integrated Moving Average.ipynb extends the Project_Functions_Definitions.ipynb and combines both moving average and Autoregressive models
+6. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least,Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
+7. Time_Series_Annual_Seasonality.ipynb extends the Project_Functions_Definitions.ipynb and involves time series analysis and data analytics Techniques
+8. Model Accurace Accessment.ipynb extends the Project_Functions_Definitions.ipynb and it contains the stacked ensemble and time series model accuracy assessment and comparisoms.
 
 
 
