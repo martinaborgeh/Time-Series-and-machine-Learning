@@ -57,6 +57,7 @@ The project relies on the following dependencies:
 6. Machine_Learning_prediction.ipynb extends the Project_Functions_Definitions.ipynb. It predicts future values using Xgboost, Least,Square Support Vector Machine and MultiLayer Perceptron as base models in s Stacked ensemble models.
 7. Time_Series_Annual_Seasonality.ipynb extends the Project_Functions_Definitions.ipynb and involves time series analysis and data analytics Techniques
 8. Model Accurace Accessment.ipynb extends the Project_Functions_Definitions.ipynb and it contains the stacked ensemble and time series model accuracy assessment and comparisoms.
+9. Final Powerpoint_Revised_Re-updated Defense_Ready is the Summarised PowerPoint Presentation of the whole Project
 
 
 
